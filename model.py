@@ -40,7 +40,7 @@ for i in X_log:
     fit.append(m * i + b)
 sp2.plot(X_log, Y_log, "yo", X_log, fit, "--k")
 sp2.set_title('Logarithmic Energy Distribution')
-sp2.set_xlabel('ln(Amount of Energy)')
-sp2.set_ylabel('Number of Particles')
+sp2.set_xlabel('Amount of Energy')
+sp2.set_ylabel('ln(Number of Particles)')
 
 plt.show()
